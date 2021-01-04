@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        "EdingDotNET"
+    </assembly>
+    <members>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCUpdateToolData(EdingDotNET.Types.CNCToolData,System.Int32)">
+            <summary>
+Updates Tool Data Call LoadToolTable to Load Results
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCSetSpindleSpeed(System.Int32)">
+            <summary>
+Sets Spindle speed
+</summary>
+            <param name="rpm"> Speed in rpm</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCGraphFifoGet">
+            <summary>
+Gets the Graph data rendered by CNCStartRenderGraph
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCSingleStepMode(System.Int32)">
+            <summary>
+StepMode
+</summary>
+            <param name="enable"> 0 for disable, 1 for enable</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCSetVariable(System.Int32,System.Double)">
+            <summary>
+Sets a Variable(eding manual for list)
+</summary>
+            <param name="index"> variable index</param>
+            <param name="index"> new value</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCGetSimulationMode">
+            <summary>
+Gets Simulation mode
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCSetSimulationMode(System.Int32)">
+            <summary>
+Sets Simulation mode
+</summary>
+            <param name="enable"> 0 fro disable, 1 for enable</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCGetAllAxisHomed">
+            <summary>
+Returns 1 if all axis are homed
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCStopJog(EdingDotNET.Types.CNCAxis)">
+            <summary>
+stop jogging of specific axis
+</summary>
+            <param name="axis"> axis to stop</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCStartJog(System.Double[],System.Double,System.Int32)">
+            <summary>
+start jogging
+</summary>
+            <param name="axis"> axis to move as double[6] example 0,0,1,0,0,0 to move z axis in positive direction</param>
+            <param name="velocityFactor">feedrate scaler, 1.0 for full feedrate</param>
+            <param name="continuous"> 0 for move distance specified in axis[] , 1 for coninuous movement</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCStartJog2(EdingDotNET.Types.CNCAxis,System.Double,System.Double,System.Int32)">
+            <summary>
+start jogging
+</summary>
+            <param name="axis"> axis to jog</param>
+            <param name="stepSize">Determines direction and discance in mm to move when continuous =0</param>
+            <param name="velocyFactor">feedrate scaler, 1.0 for full feedrate</param>
+            <param name="continuous"> 0 for move distance specified in stepSize , 1 for coninuous movement</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCGetState">
+            <summary>
+Gets state of CNC
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCGetInput(EdingDotNET.Types.CNCIOID)">
+            <summary>
+Reads Input Value
+</summary>
+            <param name="ioid"> ID of input</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCPauseJob">
+            <summary>
+Pause
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCRunOrResumeJob">
+            <summary>
+Runs or Resumes job
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCStartRenderSearch(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+Renders job into GraphFifo until line
+</summary>
+            <param name="Outlines"> render Outline</param>
+            <param name="Contour"> render Shape</param>
+            <param name="line">line to stop rendering at</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCStartRenderGraph(System.Int32,System.Int32)">
+            <summary>
+Renders job into GraphFifo
+</summary>
+            <param name="Outlines"> render Outline</param>
+            <param name="Contour"> render Shape</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCLoadJob(System.String)">
+            <summary>
+Load a gcode file
+</summary>
+            <param name="fileName"> File path of job</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCRunSingleLine(System.String)">
+            <summary>
+Execute single line of gcode
+</summary>
+            <param name="line"> gcode</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCZero(EdingDotNET.Types.CNCAxis)">
+            <summary>
+Zero specific axis
+</summary>
+            <param name="axis"> axis to Zero</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCZeroAll">
+            <summary>
+Zero All axis
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCHome(EdingDotNET.Types.CNCAxis)">
+            <summary>
+Homes specific axis
+</summary>
+            <param name="axis"> axis to home</param>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCHomeAll">
+            <summary>
+Home All axis
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCSetOutput(EdingDotNET.Types.CNCIOID,System.Int32)">
+            <summary>
+Set an output used to enable Drives 
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCReset">
+            <summary>
+Recovers from errors 
+</summary>
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCDisconnectServer">
+            <summary>
+Disconnects and closes the CncServer.exe
+</summary>
+            <returns />
+        </member>
+        <member name="M:EdingDotNET.APIWrapper.CNCServer.CNCConnectServer(System.String)">
+            <summary>
+Connects to CncServer.exe
+</summary>
+            <param name="cncFile"> cnc.ini file(Just the file name)</param>
+            <returns />
+        </member>
+    </members>
+</doc>

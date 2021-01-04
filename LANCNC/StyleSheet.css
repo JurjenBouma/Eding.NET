@@ -1,0 +1,47 @@
+﻿.CoordLabels {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    color: white;
+    font-size: 24pt;
+    margin-top: -20px;
+}
+
+.LabelStatusInfo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    color: white;
+    font-size: 15pt;
+    background-color: transparent;
+}
+
+@media (min-Width:1350px) {
+    .CoordLabels {
+        font-size: 33pt;
+        margin-top: -26px;
+    }
+}
+
+@media (min-Width:1500px) {
+    .CoordLabels {
+        font-size: 53px;
+        margin-top: -32px;
+    }
+}
+
+
+@media (min-Width:1900px) {
+    .CoordLabels {
+        font-size: 68px;
+        margin-top: -40px;
+    }
+}
+
+@media (min-Width:2200px) {
+    .CoordLabels {
+        font-size: 80px;
+        margin-top: -49px;
+    }
+}

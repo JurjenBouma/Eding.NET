@@ -1,0 +1,6 @@
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CNCTypes\bin\Release\CNCTypes.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CNCTypes\bin\Release\CNCTypes.pdb
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CNCTypes\obj\Release\CNCTypes.csproj.CoreCompileInputs.cache
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CNCTypes\obj\Release\CNCTypes.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CNCTypes\obj\Release\CNCTypes.pdb
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CNCTypes\obj\Release\CNCTypes.csprojResolveAssemblyReference.cache

@@ -1,0 +1,592 @@
+07-12 16:02:38->CNC_EC_INFO CNC_RC_OK CmdOpen:cnccommand.cpp(782):Enter, version = <CNC V4.02.82>
+07-12 16:02:38->CNC_EC_FATAL CNC_RC_OK MakeProcessRealTime:cnccommand.cpp(760):Server priority not REALTIME, please start as administrator
+07-12 16:02:38->CNC_EC_INFO CNC_RC_OK CmdOpen:cnccommand.cpp(990):Leave state=<IDLE>
+07-12 16:02:38->CNC_EC_INFO CNC_RC_OK Initialize:cnccommand.cpp(1052):Enter state=<IDLE>, iniFile = C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CncServerWPF\bin\Deb...
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotConnect:motion.cpp(2465):CPU Version is = I600--SIMULATION
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3377):Fifo Capacity   : <250>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3378):Fifo Max Job    : <50>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3379):Fifo Max Jogging: <30>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=0, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=1, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=2, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=3, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3473):Kin version = TRIVIAL BUILD-IN 1.0
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1343):X pMci->EnableLimitGuard (0, disable)
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: ----..
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1343):Y pMci->EnableLimitGuard (2, disable)
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: ----..
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1343):Z pMci->EnableLimitGuard (3, disable)
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: ----..
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1343):A pMci->EnableLimitGuard (1, disable)
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: ----..
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3587):CPU Version is|should = I600--SIMULATION | I600--SIMULATION
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3625):CPU State = SIMULATION
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3637):Program DIR <C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CncServerWPF\bin\Debug>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3638):Macro File <C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CncServerWPF\bin\Debug\macro.cnc>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3639):UserMacro File <C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CncServerWPF\bin\Debug\user_macro....
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3640):INI File <C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\CncServerWPF\bin\Debug\CNCLAN.ini>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK MotInitialize:motion.cpp(3648):Welcome, you can move the axes by arrow keys
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK InitHandwheelFeedOV:fsovrunpausetask.cpp(643):curFeedOv = 1.000, m_handwheelCounterFOV = 0 m_virtualHandwheelCounterFOV = 400
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK InitHandwheelFeedOV:fsovrunpausetask.cpp(643):curFeedOv = 1.000, m_handwheelCounterFOV = 0 m_virtualHandwheelCounterFOV = 400
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK Initialize:cnccommand.cpp(1175):Leave state=<READY>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1617):Enter state=<READY>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK SetLongJobCriteria:intjob.cpp(297):longFileCriterion=5000000, superLonFileCriterion=25000000
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1666):Load job <Macro file only> succesfull, #nlJob=0, #lMacro=508, #nlUMacro
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1720):Leave state=<READY>
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK ToRealMode:cnccommand.cpp(4846):Enter state=<READY>
+07-12 16:02:39->CNC_EC_FATAL CNC_RC_ERR_CPU MotSetSimulationMode:motion.cpp(1260):Switch to real mode failed
+07-12 16:02:39->CNC_EC_INFO CNC_RC_OK ToRealMode:cnccommand.cpp(4860):Leave state=<READY>
+07-12 16:02:41->CNC_EC_INFO CNC_RC_OK Reset:cnccommand.cpp(1319):Enter state=<READY>
+07-12 16:02:41->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:02:41->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=0, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=1, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=2, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=3, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:02:42->CNC_EC_INFO CNC_RC_ERR ParseExecute:intline.cpp(1317):2->SpindleOff
+07-12 16:02:42->CNC_EC_INFO CNC_RC_ERR ParseExecute:intline.cpp(1317):1->End
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK Reset:cnccommand.cpp(1577):Ready for operation
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK InitHandwheelFeedOV:fsovrunpausetask.cpp(643):curFeedOv = 1.000, m_handwheelCounterFOV = 0 m_virtualHandwheelCounterFOV = 400
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK Reset:cnccommand.cpp(1598):Leave state=<READY>
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK RunLine:cnccommand.cpp(2413):Enter state =<READY>, line=<gosub home_all>
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK RunLine:cnccommand.cpp(2472):gosub home_all
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK RunGosub:cnccommand.cpp(2120):Enter state=<READY>
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK RunGosub:cnccommand.cpp(2213):Leave state=<RUNNING_SUB>
+07-12 16:02:42->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home Z
+07-12 16:02:42->CNC_EC_INFO CNC_RC_OK InitHandwheelFeedOV:fsovrunpausetask.cpp(643):curFeedOv = 1.000, m_handwheelCounterFOV = 0 m_virtualHandwheelCounterFOV = 400
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Z pMci->EnableLimitGuard (3, enable)
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: --Z-..
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Z pMci->EnableLimitGuard (3, enable)
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: --Z-..
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK WriteIO:cnccommand.cpp(4246):Enter state=<RUNNING_SUB>
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK WriteIO:cnccommand.cpp(4422):Leave state=<RUNNING_SUB>
+07-12 16:02:43->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home Y
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Y pMci->EnableLimitGuard (2, enable)
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: -YZ-..
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Y pMci->EnableLimitGuard (2, enable)
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: -YZ-..
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:02:43->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home X
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):X pMci->EnableLimitGuard (0, enable)
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1377):Not All joint Limits active: XYZ-..
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):A pMci->EnableLimitGuard (1, enable)
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:02:43->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home A
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):A pMci->EnableLimitGuard (1, enable)
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):X pMci->EnableLimitGuard (0, enable)
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:02:43->CNC_EC_INFO CNC_RC_OK Msg:intdefcmd.cpp(33):home complete
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1617):Enter state=<READY>
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK SetLongJobCriteria:intjob.cpp(297):longFileCriterion=5000000, superLonFileCriterion=25000000
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1666):Load job <C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\LANCNC\Jobs\10.0.0.210\Tool change.cnc> ...
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1720):Leave state=<READY>
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2231):Enter state=<READY>
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2359):SEARCHING
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2383):Leave state=<SEARCHING>
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(196):****************************************************
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(197):TOTAL-LENGTH = 0.000 mm, N=30, T-Estimated = 00:-1:-2
+
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(198):COUNT-V-REACH = 14, COUNT-V-NOT-REACH =16
+
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(199):****************************************************
+
+07-12 16:02:44->CNC_EC_WARNING CNC_RC_OK ProcessRequests:cnccommand.cpp(6589):READY, SEARCH FAILED
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2231):Enter state=<READY>
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2383):Leave state=<RENDERING>
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(196):****************************************************
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(197):TOTAL-LENGTH = 1417.846 mm, N=30, T-Estimated = 00:01:02
+
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(198):COUNT-V-REACH = 14, COUNT-V-NOT-REACH =16
+
+07-12 16:02:44->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(199):****************************************************
+
+07-12 16:02:46->CNC_EC_INFO CNC_RC_OK RunJob:cnccommand.cpp(1749):C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\LANCNC\Jobs\10.0.0.210\Tool change.cnc
+07-12 16:02:46->CNC_EC_INFO CNC_RC_OK RunJob:cnccommand.cpp(1752):Enter state=<READY> job=<C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\LANCNC\Jobs\10.0.0.210\To...
+07-12 16:02:46->CNC_EC_INFO CNC_RC_OK RunJob:cnccommand.cpp(1970):Job started
+07-12 16:02:46->CNC_EC_INFO CNC_RC_OK RunJob:cnccommand.cpp(2010):Leave state=<RUNNING>
+07-12 16:02:50->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 18, x=-138.550, y=46.781, z=-0.000, a=0.000, b=0.000, c=0.000
+07-12 16:02:53->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 19, x=-138.550, y=46.781, z=-120.156, a=0.000, b=0.000, c=0.000
+07-12 16:02:57->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 20, x=-138.550, y=46.781, z=-125.156, a=0.000, b=0.000, c=0.000
+07-12 16:02:58->CNC_EC_INFO CNC_RC_OK MotStartTraject:motion.cpp(7123):Set Start flag, lnr = 29
+07-12 16:03:02->CNC_EC_INFO CNC_RC_OK Pause:cnccommand.cpp(2703):Enter state=<RUNNING>
+07-12 16:03:02->CNC_EC_INFO CNC_RC_OK MotPause ENTER:motion.cpp(7745):lnr=26, st=MOT_MOVING_STATE   trgd=0, trgp=0, trgpsgn=0, bld=1, staf=0, stof=0, me=1
+07-12 16:03:02->CNC_EC_INFO CNC_RC_OK MotPause position:motion.cpp(7755):x=-177.895, y=47.081, z=-135.156, a=-177.895, b=0.000, c=0.000
+07-12 16:03:03->CNC_EC_WARNING CNC_RC_OK MotSaveResumePosition:motion.cpp(7551):PAUSED-JOB
+07-12 16:03:03->CNC_EC_WARNING CNC_RC_OK MotSaveResumePosition:motion.cpp(7562):lineNr=26, x=-180.669, y=47.081, z=-135.156, a=-180.669, b=0.000, c=0.000
+07-12 16:03:03->CNC_EC_INFO CNC_RC_OK MotPause LEAVE:motion.cpp(7854):state=MOT_PAUSED_STATE  
+07-12 16:03:03->CNC_EC_INFO CNC_RC_ERR_STATE Pause:cnccommand.cpp(2785):Retracting tool
+07-12 16:03:03->CNC_EC_INFO CNC_RC_OK MoveToInternally:cnccommand.cpp(638):Enter state=<PAUSED-JOB>
+07-12 16:03:03->CNC_EC_INFO CNC_RC_OK MoveToInternally:cnccommand.cpp(650):Leave state=<PAUSED-JOB>
+07-12 16:03:03->CNC_EC_INFO CNC_RC_OK Pause:cnccommand.cpp(2876):Leave state=<PAUSED-JOB>
+07-12 16:03:03->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3897):Enter state=<PAUSED-JOB>
+07-12 16:03:03->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3993):Leave state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK CmdStartCartJog:cnccommand.cpp(3558):Enter state=<PAUSED-JOB>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK CmdStartCartJog:cnccommand.cpp(3740):X axis v=12.500, a=50.000, end=-750.000000
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK CmdStartCartJog:cnccommand.cpp(3883):Leave state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4006):Enter state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4032):X axis
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4045):Leave state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4006):Enter state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4045):Leave state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4006):Enter state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4045):Leave state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK CmdStartCartJog:cnccommand.cpp(3558):Enter state=<AXISJOG>
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK CmdStartCartJog:cnccommand.cpp(3740):Y axis v=12.500, a=50.000, end=488.000000
+07-12 16:03:08->CNC_EC_INFO CNC_RC_OK CmdStartCartJog:cnccommand.cpp(3883):Leave state=<AXISJOG>
+07-12 16:03:09->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4006):Enter state=<AXISJOG>
+07-12 16:03:09->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4045):Leave state=<AXISJOG>
+07-12 16:03:09->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4006):Enter state=<AXISJOG>
+07-12 16:03:09->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4032):Y axis
+07-12 16:03:09->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4045):Leave state=<AXISJOG>
+07-12 16:03:09->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4006):Enter state=<AXISJOG>
+07-12 16:03:09->CNC_EC_INFO CNC_RC_OK StopJointJog:cnccommand.cpp(4045):Leave state=<AXISJOG>
+07-12 16:03:10->CNC_EC_INFO CNC_RC_OK WriteIO:cnccommand.cpp(4471):Enter state=<PAUSED-JOB>
+07-12 16:03:10->CNC_EC_INFO CNC_RC_OK WriteIO:cnccommand.cpp(4597):Leave state=<PAUSED-JOB>
+07-12 16:03:13->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3897):Enter state=<PAUSED-JOB>
+07-12 16:03:13->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3993):Leave state=<AXISJOG>
+07-12 16:03:15->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3897):Enter state=<PAUSED-JOB>
+07-12 16:03:15->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3993):Leave state=<AXISJOG>
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK Resume:cnccommand.cpp(2891):Enter state=<PAUSED-JOB>
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=0, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=1, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=2, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=3, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK MotStartTraject:motion.cpp(7302):Set Start flag, lnr = 29
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK Resume:cnccommand.cpp(3037):RESUMED
+07-12 16:03:19->CNC_EC_INFO CNC_RC_OK Resume:cnccommand.cpp(3098):Leave state=<RUNNING>
+07-12 16:03:21->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 30, x=-213.750, y=46.781, z=-120.156, a=0.000, b=0.000, c=0.000
+07-12 16:03:26->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 34, x=-213.750, y=46.781, z=-0.000, a=0.000, b=0.000, c=0.000
+07-12 16:03:29->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 34, x=0.000, y=0.000, z=-0.000, a=0.000, b=0.000, c=0.000
+07-12 16:03:35->CNC_EC_USERACTION CNC_RC_OK ChangeTool:intgcodecmd.cpp(2767):Please load tool 1
+07-12 16:03:36->CNC_EC_INFO CNC_RC_OK WriteIO:cnccommand.cpp(4471):Enter state=<PAUSED-JOB>
+07-12 16:03:36->CNC_EC_INFO CNC_RC_OK WriteIO:cnccommand.cpp(4597):Leave state=<PAUSED-JOB>
+07-12 16:03:39->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3897):Enter state=<PAUSED-JOB>
+07-12 16:03:39->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3993):Leave state=<AXISJOG>
+07-12 16:03:54->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3897):Enter state=<PAUSED-JOB>
+07-12 16:03:54->CNC_EC_INFO CNC_RC_OK MoveTo:cnccommand.cpp(3993):Leave state=<AXISJOG>
+07-12 16:04:05->CNC_EC_INFO CNC_RC_OK Resume:cnccommand.cpp(2891):Enter state=<PAUSED-JOB>
+07-12 16:04:05->CNC_EC_INFO CNC_RC_OK Resume:cnccommand.cpp(3037):RESUMED
+07-12 16:04:05->CNC_EC_INFO CNC_RC_OK Resume:cnccommand.cpp(3098):Leave state=<RUNNING>
+07-12 16:04:05->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 43, x=-213.968, y=35.121, z=-135.156, a=0.000, b=0.000, c=0.000
+07-12 16:04:07->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 44, x=-213.968, y=35.121, z=-114.156, a=0.000, b=0.000, c=0.000
+07-12 16:04:08->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 45, x=-213.968, y=35.121, z=-125.156, a=0.000, b=0.000, c=0.000
+07-12 16:04:09->CNC_EC_INFO CNC_RC_OK MotStartTraject:motion.cpp(7123):Set Start flag, lnr = 54
+07-12 16:04:16->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 55, x=-138.332, y=35.121, z=-114.156, a=0.000, b=0.000, c=0.000
+07-12 16:04:18->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 58, x=-138.332, y=35.121, z=-0.000, a=0.000, b=0.000, c=0.000
+07-12 16:04:21->CNC_EC_INFO CNC_RC_OK MotPointToPoint:motion.cpp(7387):lnr = 58, x=0.000, y=0.000, z=-0.000, a=0.000, b=0.000, c=0.000
+07-12 16:04:28->CNC_EC_INFO CNC_RC_OK ProcessRequests:cnccommand.cpp(7258):Job ended and rewinded
+07-12 16:04:49->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1617):Enter state=<READY>
+07-12 16:04:49->CNC_EC_INFO CNC_RC_OK SetLongJobCriteria:intjob.cpp(297):longFileCriterion=5000000, superLonFileCriterion=25000000
+07-12 16:04:49->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1666):Load job <Macro file only> succesfull, #nlJob=0, #lMacro=508, #nlUMacro
+07-12 16:04:49->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1720):Leave state=<READY>
+07-12 16:04:49->CNC_EC_INFO CNC_RC_OK ToRealMode:cnccommand.cpp(4846):Enter state=<READY>
+07-12 16:04:49->CNC_EC_FATAL CNC_RC_ERR_CPU MotSetSimulationMode:motion.cpp(1260):Switch to real mode failed
+07-12 16:04:49->CNC_EC_INFO CNC_RC_OK ToRealMode:cnccommand.cpp(4860):Leave state=<READY>
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK Reset:cnccommand.cpp(1319):Enter state=<READY>
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=0, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=1, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=2, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1600):IO BOARD DETECTED ID=3, addr=01, hwID=50, hwVer=1, prot=1, SWVER=1.1
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C00 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C01 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C02 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1748):>>>>>>>>>>>>>>>>>Writing GPIO Start Rules<<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R00, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R01, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R02, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R03, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R04, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R05, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R06, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R07, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R08, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R09, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R10, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R11, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R12, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R13, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R14, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1765):C03 R15, ACTION=None   , PARTBITS=00 0000 0000, COMPAREBITS=00 0000 0000
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK MotCheckI2CGPIOPresence:motion.cpp(1768):>>>>>>>>>>>>>>>>>Writing GPIO Rules End <<<<<<<<<<<<<<<<<<<<<<<
+07-12 16:04:50->CNC_EC_INFO CNC_RC_ERR ParseExecute:intline.cpp(1317):2->SpindleOff
+07-12 16:04:50->CNC_EC_INFO CNC_RC_ERR ParseExecute:intline.cpp(1317):1->End
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK Reset:cnccommand.cpp(1577):Ready for operation
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK InitHandwheelFeedOV:fsovrunpausetask.cpp(643):curFeedOv = 1.000, m_handwheelCounterFOV = 0 m_virtualHandwheelCounterFOV = 400
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK Reset:cnccommand.cpp(1598):Leave state=<READY>
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK WriteIO:cnccommand.cpp(4246):Enter state=<READY>
+07-12 16:04:50->CNC_EC_INFO CNC_RC_OK WriteIO:cnccommand.cpp(4422):Leave state=<READY>
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK RunLine:cnccommand.cpp(2413):Enter state =<READY>, line=<gosub home_all>
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK RunLine:cnccommand.cpp(2472):gosub home_all
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK RunGosub:cnccommand.cpp(2120):Enter state=<READY>
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK RunGosub:cnccommand.cpp(2213):Leave state=<RUNNING_SUB>
+07-12 16:04:51->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home Z
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Z pMci->EnableLimitGuard (3, enable)
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Z pMci->EnableLimitGuard (3, enable)
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:04:51->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home Y
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Y pMci->EnableLimitGuard (2, enable)
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Y pMci->EnableLimitGuard (2, enable)
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:04:51->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home X
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):X pMci->EnableLimitGuard (0, enable)
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):A pMci->EnableLimitGuard (1, enable)
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:04:51->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home A
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):A pMci->EnableLimitGuard (1, enable)
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):X pMci->EnableLimitGuard (0, enable)
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:04:51->CNC_EC_INFO CNC_RC_OK Msg:intdefcmd.cpp(33):home complete
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1617):Enter state=<READY>
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK SetLongJobCriteria:intjob.cpp(297):longFileCriterion=5000000, superLonFileCriterion=25000000
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1666):Load job <C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\LANCNC\Jobs\10.0.0.210\Tool change.cnc> ...
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK LoadJob:cnccommand.cpp(1720):Leave state=<READY>
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2231):Enter state=<READY>
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2359):SEARCHING
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2383):Leave state=<SEARCHING>
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(196):****************************************************
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(197):TOTAL-LENGTH = 1417.846 mm, N=60, T-Estimated = 00:00:00
+
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(198):COUNT-V-REACH = 28, COUNT-V-NOT-REACH =32
+
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(199):****************************************************
+
+07-12 16:04:53->CNC_EC_WARNING CNC_RC_OK ProcessRequests:cnccommand.cpp(6589):READY, SEARCH FAILED
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2231):Enter state=<READY>
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderJob:cnccommand.cpp(2383):Leave state=<RENDERING>
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(196):****************************************************
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(197):TOTAL-LENGTH = 1417.846 mm, N=30, T-Estimated = 00:01:02
+
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(198):COUNT-V-REACH = 14, COUNT-V-NOT-REACH =16
+
+07-12 16:04:53->CNC_EC_INFO CNC_RC_OK RenderStatus:intrender.cpp(199):****************************************************
+
+07-12 16:04:59->CNC_EC_INFO CNC_RC_OK RunJob:cnccommand.cpp(1749):C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\LANCNC\Jobs\10.0.0.210\Tool change.cnc
+07-12 16:04:59->CNC_EC_INFO CNC_RC_OK RunJob:cnccommand.cpp(1752):Enter state=<READY> job=<C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\LANCNC\Jobs\10.0.0.210\To...
+07-12 16:04:59->CNC_EC_INFO CNC_RC_OK RunJob:cnccommand.cpp(1970):Job started
+07-12 16:04:59->CNC_EC_INFO CNC_RC_OK RunJob:cnccommand.cpp(2010):Leave state=<RUNNING>
+07-12 16:04:59->CNC_EC_USERACTION CNC_RC_OK ChangeTool:intgcodecmd.cpp(2767):Please load tool 2
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK RunLine:cnccommand.cpp(2413):Enter state =<PAUSED-JOB>, line=<gosub home_all>
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK RunLine:cnccommand.cpp(2472):gosub home_all
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK RunGosub:cnccommand.cpp(2120):Enter state=<PAUSED-JOB>
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK RunGosub:cnccommand.cpp(2178):RESUMED
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK RunGosub:cnccommand.cpp(2213):Leave state=<RUNNING_SUB>
+07-12 16:05:02->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home Z
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Z pMci->EnableLimitGuard (3, enable)
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Z pMci->EnableLimitGuard (3, enable)
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:05:02->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home Y
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Y pMci->EnableLimitGuard (2, enable)
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):Y pMci->EnableLimitGuard (2, enable)
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:05:02->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home X
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):X pMci->EnableLimitGuard (0, enable)
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):A pMci->EnableLimitGuard (1, enable)
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:05:02->CNC_EC_INFO CNC_RC_USER_INFO Home:intgcodecmd.cpp(1054):Home A
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):A pMci->EnableLimitGuard (1, enable)
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1336):X pMci->EnableLimitGuard (0, enable)
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK MotEnableSoftwareLimits:motion.cpp(1373):All joint Limits active: XYZA..
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK SetMCAGuardON:CCncKins.cpp(1085):MCAGuard switched ON
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK SetTCAGuardON:CCncKins.cpp(1055):TCAGuard switched OFF because settings are zero
+07-12 16:05:02->CNC_EC_INFO CNC_RC_OK Msg:intdefcmd.cpp(33):home complete

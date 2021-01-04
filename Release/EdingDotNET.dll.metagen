@@ -1,0 +1,85 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly EdingDotNET, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly CNCTypes, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class EdingDotNET.APIWrapper.CNCServer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CNCConnectServer(String): PrivateScope, Public, HideBySig
+    CNCDisconnectServer(): PrivateScope, Public, HideBySig
+    CNCReset(): PrivateScope, Public, HideBySig
+    CNCSetOutput(CNCIOID, Int32): PrivateScope, Public, HideBySig
+    CNCHomeAll(): PrivateScope, Public, HideBySig
+    CNCHome(CNCAxis): PrivateScope, Public, HideBySig
+    CNCZeroAll(): PrivateScope, Public, HideBySig
+    CNCZero(CNCAxis): PrivateScope, Public, HideBySig
+    CNCRunSingleLine(String): PrivateScope, Public, HideBySig
+    CNCLoadJob(String): PrivateScope, Public, HideBySig
+    CNCStartRenderGraph(Int32, Int32): PrivateScope, Public, HideBySig
+    CNCStartRenderSearch(Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    CNCRunOrResumeJob(): PrivateScope, Public, HideBySig
+    CNCPauseJob(): PrivateScope, Public, HideBySig
+    CNCRewindJob(): PrivateScope, Public, HideBySig
+    CNCGetWorkPosition(): PrivateScope, Public, HideBySig
+    CNCGetTrafficLightStatus(): PrivateScope, Public, HideBySig
+    CNCGetInput(CNCIOID): PrivateScope, Public, HideBySig
+    CNCGetState(): PrivateScope, Public, HideBySig
+    CNCGetJobStatus(): PrivateScope, Public, HideBySig
+    CNCStartJog2(CNCAxis, Double, Double, Int32): PrivateScope, Public, HideBySig
+    CNCStartJog(Double[], Double, Int32): PrivateScope, Public, HideBySig
+    CNCStopJog(CNCAxis): PrivateScope, Public, HideBySig
+    CNCGetActualFeed(): PrivateScope, Public, HideBySig
+    CNCGetActualSpeed(): PrivateScope, Public, HideBySig
+    CNCGetProgrammedFeed(): PrivateScope, Public, HideBySig
+    CNCGetProgrammedSpeed(): PrivateScope, Public, HideBySig
+    CNCGetAllAxisHomed(): PrivateScope, Public, HideBySig
+    CNCGetCurrentToolNumber(): PrivateScope, Public, HideBySig
+    CNCGetMachinePosition(): PrivateScope, Public, HideBySig
+    CNCSetSimulationMode(Int32): PrivateScope, Public, HideBySig
+    CNCGetSimulationMode(): PrivateScope, Public, HideBySig
+    CNCSetVariable(Int32, Double): PrivateScope, Public, HideBySig
+    CNCSingleStepMode(Int32): PrivateScope, Public, HideBySig
+    CNCGraphFifoGet(): PrivateScope, Public, HideBySig
+    CNCStartSpindle(): PrivateScope, Public, HideBySig
+    CNCStopSpindle(): PrivateScope, Public, HideBySig
+    CNCMistOn(): PrivateScope, Public, HideBySig
+    CNCFloodOn(): PrivateScope, Public, HideBySig
+    CNCMistAndFloodOff(): PrivateScope, Public, HideBySig
+    CNCSetSpindleSpeed(Int32): PrivateScope, Public, HideBySig
+    CNCGetToolData(Int32): PrivateScope, Public, HideBySig
+    CNCUpdateToolData(CNCToolData, Int32): PrivateScope, Public, HideBySig
+    CNCLoadToolTable(): PrivateScope, Public, HideBySig
+    CNCGetVariable(Int32): PrivateScope, Public, HideBySig
+    CNCIsServerConnected(): PrivateScope, Public, HideBySig
+    CNCGetOutput(CNCIOID): PrivateScope, Public, HideBySig
+    CNCGetSpindleStatus(): PrivateScope, Public, HideBySig
+    CNCSetSpindleOutput(Int32, Int32, Double): PrivateScope, Public, HideBySig
+    CNCGetMotionEnabled(): PrivateScope, Public, HideBySig
+    CNCCheckStartConditionOK(Int32): PrivateScope, Public, HideBySig
+    CNCGetSafetyMode(): PrivateScope, Public, HideBySig
+    CNCGetJointConfig(CNCAxis): PrivateScope, Public, HideBySig
+    CNCSetJointConfig(CNCJointConfig, CNCAxis): PrivateScope, Public, HideBySig
+    CNCReInitialize(): PrivateScope, Public, HideBySig
+    CNCStoreIniFile(): PrivateScope, Public, HideBySig
+    CNCGetLogFifo(): PrivateScope, Public, HideBySig
+    CNCGetSafetyConfig(): PrivateScope, Public, HideBySig
+    CNCSetSafetyConfig(CNCSafetyConfig): PrivateScope, Public, HideBySig
+    CNCGetPausePosition(): PrivateScope, Public, HideBySig
+    CNCGraphFifoGetArray(Int32): PrivateScope, Public, HideBySig
+    CNCMoveTo(CNCPositions, CNCAxisBools, Double): PrivateScope, Public, HideBySig
+    CNCResetPausePosition(): PrivateScope, Public, HideBySig
+    CNCGetPauseSatus(): PrivateScope, Public, HideBySig
+    CNCGetSingleStepMode(): PrivateScope, Public, HideBySig
+    CNCGetEMStopActive(): PrivateScope, Public, HideBySig
+    CNCAbortJob(): PrivateScope, Public, HideBySig
+    CNCResetPauseStatus(): PrivateScope, Public, HideBySig
+    CNCGetMachineZeroWorkPoint(): PrivateScope, Public, HideBySig

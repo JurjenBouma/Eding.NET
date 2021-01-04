@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="LANCNC.MasterPage"  %>
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <form id="MasterPage" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MainPanel" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+

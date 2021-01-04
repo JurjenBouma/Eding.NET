@@ -1,0 +1,409 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly CNCTypes, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct EdingDotNET.Types.RCResult: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    EdingDotNET.Types.RCResult CNC_RC_ERR_NOT_CONNECTED = -17 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_VERSION_MISMATCH = -16 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_SERVER_NOT_RUNNING = -15 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_COLLISION = -14 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_FILEOPEN = -13 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_EXE_CE = -12 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_TIMEOUT = -11 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_SYS = -10 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_MOT = -9 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_CPU = -8 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_EXE = -7 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_CE = -6 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_INT = -5 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_CONFIG = -4 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_STATE = -3 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR_PAR = -2 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ERR = -1 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_OK = 0 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_BUF_EMPTY = 1 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_TRACE = 2 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_USER_INFO = 3 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_SHUTDOWN = 4 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_EXISTING = 5 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ALREADY_RUNS = 6 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.RCResult CNC_RC_ALREADY_CONNECTED = 7 : Public, Static, Literal, HasDefault
+Struct EdingDotNET.Types.CNCAxis: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    EdingDotNET.Types.CNCAxis X_AXIS = 0 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCAxis Y_AXIS = 1 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCAxis Z_AXIS = 2 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCAxis A_AXIS = 3 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCAxis B_AXIS = 4 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCAxis C_AXIS = 5 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCAxis ALL_AXES = 6 : Public, Static, Literal, HasDefault
+Struct EdingDotNET.Types.CNCIOID: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    EdingDotNET.Types.CNCIOID CNC_IOID_NONE = 0 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_MACHINE_ON_OUT = 1 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_DRIVE_ENABLE_OUT = 2 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_TOOL_OUT = 3 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_COOLANT1_OUT = 4 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_COOLANT2_OUT = 5 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_TOOLDIR_OUT = 6 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX1_OUT = 7 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX2_OUT = 8 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX3_OUT = 9 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX4_OUT = 10 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX5_OUT = 11 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX6_OUT = 12 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX7_OUT = 13 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX8_OUT = 14 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX9_OUT = 15 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_PWM_VAL1_OUT = 16 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_PWM_VAL2_OUT = 17 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_PWM_VAL3_OUT = 18 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_EMSTOP1_IN = 19 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_EMSTOP2_IN = 20 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_EXTERR_IN = 21 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_PROBE_IN = 22 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_SYNC_IN = 23 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_RUN_IN = 24 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_PAUSE_IN = 25 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_X_IN = 26 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_Y_IN = 27 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_Z_IN = 28 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_A_IN = 29 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_B_IN = 30 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_C_IN = 31 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_1_IN = 32 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_2_IN = 33 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_3_IN = 34 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_4_IN = 35 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_5_IN = 36 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HOME_6_IN = 37 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HW1A_IN = 38 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_HW1B_IN = 39 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_EMSTOP_FROM_GPIO = 40 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_SSTOP_FROM_GPIO = 41 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_WARNING_FROM_GPIO = 42 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX1_IN = 43 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX2_IN = 44 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX3_IN = 45 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX4_IN = 46 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX5_IN = 47 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX6_IN = 48 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX7_IN = 49 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_AUX8_IN = 50 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_ANA1_IN = 51 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_ANA2_IN = 52 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_ANA3_IN = 53 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_ANA4_IN = 54 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_ANA5_IN = 55 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_DRIVEALM_IN = 56 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_DRIVEWARN_IN = 57 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_OUTPUTPROBLEM_IN = 58 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_INPUTPROBLEM_IN = 59 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCIOID CNC_IOID_LAST = 60 : Public, Static, Literal, HasDefault
+Struct EdingDotNET.Types.CNCTrafficLightColor: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    EdingDotNET.Types.CNCTrafficLightColor CNC_TRAFFIC_LIGHT_COLOR_OFF = 0 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCTrafficLightColor CNC_TRAFFIC_LIGHT_COLOR_GREEN = 1 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCTrafficLightColor CNC_TRAFFIC_LIGHT_COLOR_YELLOW = 2 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCTrafficLightColor CNC_TRAFFIC_LIGHT_COLOR_RED = 3 : Public, Static, Literal, HasDefault
+Struct EdingDotNET.Types.CNCState: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    EdingDotNET.Types.CNCState CNC_IE_POWERUP_STATE = 0 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_IDLE_STATE = 1 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_READY_STATE = 2 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_EXEC_ERROR_STATE = 3 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_INT_ERROR_STATE = 4 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_ABORTED_STATE = 5 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_JOB_STATE = 6 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_LINE_STATE = 7 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_SUB_STATE = 8 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_SUB_SEARCH_STATE = 9 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_LINE_SEARCH_STATE = 10 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_PAUSED_LINE_STATE = 11 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_PAUSED_JOB_STATE = 12 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_PAUSED_SUB_STATE = 13 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_PAUSED_LINE_SEARCH_STATE = 14 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_PAUSED_SUB_SEARCH_STATE = 15 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_HANDWHEEL_STATE = 16 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_LINE_HANDWHEEL_STATE = 17 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_LINE_PAUSED_STATE = 18 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_AXISJOG_STATE = 19 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RUNNING_IPJOG_STATE = 20 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_RENDERING_GRAPH_STATE = 21 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_SEARCHING_STATE = 22 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_SEARCHED_DONE_STATE = 23 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCState CNC_IE_LAST_STATE = 24 : Public, Static, Literal, HasDefault
+Struct EdingDotNET.Types.CNCMoveType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_UNKNOWN = 0 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_G0 = 1 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_G1 = 2 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_ARC = 3 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_PROBE = 4 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_JOG = 5 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_HOME = 6 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_ORIGIN_OFFSET = 7 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_START_POSITION = 8 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_SET_GRAPH_START_POINT = 9 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_OUT_LINE = 10 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_END = 11 : Public, Static, Literal, HasDefault
+    EdingDotNET.Types.CNCMoveType CNC_MOVE_TYPE_END_COLLISION = 12 : Public, Static, Literal, HasDefault
+Struct EdingDotNET.Types.CNCPositions: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Double x : Public
+    Double y : Public
+    Double z : Public
+    Double a : Public
+    Double b : Public
+    Double c : Public
+Struct EdingDotNET.Types.CNCGraphData: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 lineNumber : Public
+    EdingDotNET.Types.CNCPositions pos : Public
+    EdingDotNET.Types.CNCMoveType type : Public
+    Int32 msgNumber : Public
+Struct EdingDotNET.Types.CNCJobStatus: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String jobName : Public
+    Int32 nrOfRepeatsActual : Public
+    Int32 nrOfJobRepeatsSet : Public
+    Int32 doRepeatJob : Public
+    Int32 lastKnownToolChangeLineNumber : Public
+    Int32 lastKnownExcutedLineNumber : Public
+    Int32 curExLine : Public
+    System.String curIpLineText : Public
+    Int32 curIpLine : Public
+    Double jobRenderProgressPercentage : Public
+    Int32 jobRenderLine : Public
+    Int32 zCollision : Public
+    Int32 yCollision : Public
+    Int32 xCollision : Public
+    System.String extraLineWhenEndOfJob : Public
+    Int32 MCACollision : Public
+    Double jobEstimatedTime : Public
+    Double jobRemainingRunningTime : Public
+    Double jobActualRunningTime : Public
+    Double jobProgress : Public
+    Double totalJobLength : Public
+    Int32 jobIsRendered : Public
+    Int32 isSuperLongJob : Public
+    Int32 isLongJob : Public
+    Int64 numBytesInJob : Public
+    Int32 numLinesInUserMacro : Public
+    Int32 numLinesInMacro : Public
+    Int32 numLinesInjob : Public
+    Int32 jobLoadCounter : Public
+    Int32 TCACollision : Public
+Struct EdingDotNET.Types.CNCTrafficLightStatus: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    EdingDotNET.Types.CNCTrafficLightColor trafficLightColor : Public
+    Int32 trafficLightBlink : Public
+    System.String traficLightReason : Public
+Struct EdingDotNET.Types.CNCToolData: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 id : Public
+    Int32 locationCode : Public
+    System.String description : Public
+    Double diameter : Public
+    Double zOffset : Public
+    Double xOffset : Public
+    Double zDelta : Public
+    Double xDelta : Public
+    Int32 orientation : Public
+Struct EdingDotNET.Types.CNCSpindleStatus: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 syncCount : Public
+    Double actualSpindleSpeedSigned : Public
+    Double programmedSpindleSpeed : Public
+    Double speedOverrideFactor : Public
+    Int32 spindleIsOn : Public
+    Int32 spindleDirection : Public
+    Int32 spindlePWMPrecentage : Public
+    Int32 feedSpeedSyncAvailable : Public
+    Int32 actualSpindleConfigurationIndex : Public
+    Int32 isRampingUp : Public
+    Int32 spindleReady : Public
+    EdingDotNET.Types.CNCSpindleConfig spindleCfg : Public
+Struct EdingDotNET.Types.CNCSpindleConfig: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 spindleIndex : Public
+    Double rampUpTime : Public
+    Double NmaxRPM : Public
+    Double NminRPM : Public
+    Int32 countPerRev : Public
+    Int32 stepperMotorMode : Public
+    Int32 smoothCountMode : Public
+    Int32 useRPMSensor : Public
+    EdingDotNET.Types.CNCIOID onOffOutputPortID : Public
+    EdingDotNET.Types.CNCIOID directionOutputPortID : Public
+    EdingDotNET.Types.CNCIOID pwmOutputPortID : Public
+    EdingDotNET.Types.CNCIOID spindleReadyPortID : Public
+    Int32 spindleReadyPortMode : Public
+    Int32 rightOnLeftOnMNode : Public
+    System.String pwmCompensationFileName : Public
+    Int32 pwmCompensationOn : Public
+    Int32 maxAvgSpeedFilterTimeMillisecs : Public
+    Int32 sensorSpeedControlOn : Public
+    Double sensorSpeedControlCycleTime : Public
+Struct EdingDotNET.Types.CNCJointConfig: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String name : Public
+    Int32 isVisible : Public
+    Int32 cpuPortIndex : Public
+    Double resolution : Public
+    Double positiveLimit : Public
+    Double negativeLimit : Public
+    Double maxVelocity : Public
+    Double maxAcceleration : Public
+    Double homeVelocity : Public
+    Double homeVelocitySlow : Public
+    Double homePosition : Public
+    Double backLash : Public
+    Double lowSpeedJogPercent : Public
+    Double medSpeedJogPercent : Public
+    Double highSpeedJogPercent : Public
+Struct EdingDotNET.Types.CNCLogMessage: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    EdingDotNET.Types.RCResult getMessageFifoRC : Public
+    EdingDotNET.Types.RCResult code : Public
+    Int32 subCode : Public
+    System.String text : Public
+    System.String par1Name : Public
+    System.String par2Name : Public
+    System.String par3Name : Public
+    System.String par4Name : Public
+    System.String par5Name : Public
+    System.String par6Name : Public
+    System.String par7Name : Public
+    System.String par8Name : Public
+    System.String par9Name : Public
+    System.String par10Name : Public
+    System.String par11Name : Public
+    System.String par12Name : Public
+    System.String par13Name : Public
+    System.String par14Name : Public
+    System.String par15Name : Public
+    Int32 par1Number : Public
+    Int32 par2Number : Public
+    Int32 par3Number : Public
+    Int32 par4Number : Public
+    Int32 par5Number : Public
+    Int32 par6Number : Public
+    Int32 par7Number : Public
+    Int32 par8Number : Public
+    Int32 par9Number : Public
+    Int32 par10Number : Public
+    Int32 par11Number : Public
+    Int32 par12Number : Public
+    Int32 par13Number : Public
+    Int32 par14Number : Public
+    Int32 par15Number : Public
+    System.String sourceInfo : Public
+    System.String functionName : Public
+    Int32 n : Public
+    Int32 hint : Public
+Struct EdingDotNET.Types.CNCSafetyConfig: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 homeIsEstopAfterHomingAllAxes : Public
+    Int32 EStopInputSenseLevel1 : Public
+    Int32 EStopInputSenseLevel2 : Public
+    Int32 driveWarningInputSenseLevel : Public
+    Int32 driveErrorInputSenseLevel : Public
+    Int32 isoInputSenseLevel : Public
+    Int32 isoOutputSenseLevel : Public
+    Int32 extErrorInputSenseLevel : Public
+    Int32 enableGPIOActions : Public
+    Int32 atEStopLeaveGPIOAsIs : Public
+    Double safetyFeed : Public
+    Double safetySpeedPercent : Public
+    Double safetyFeedOverridePercent : Public
+    Double maxMasterSlaveDistance : Public
+    Int32 useXHomeinputForAllAxes : Public
+    Int32 endOfStrokeInputSenseLevel : Public
+    Int32 mandatoryHoming : Public
+    Int32 allowJoggingBeforeHoming : Public
+    Int32 stopSpindleOnPause : Public
+    Int32 noStartSpindleIfPauseActive : Public
+    Int32 noStartJogIfPauseActive : Public
+    Int32 noStartMDIIfPauseActive : Public
+    Int32 aux1_OffOnPause : Public
+    Int32 aux2_OffOnPause : Public
+    Int32 aux3_OffOnPause : Public
+    Int32 aux4_OffOnPause : Public
+    Int32 aux5_OffOnPause : Public
+    Int32 aux6_OffOnPause : Public
+    Int32 aux7_OffOnPause : Public
+    Int32 aux8_OffOnPause : Public
+    Int32 aux9_OffOnPause : Public
+    Int32 aux10_OffOnPause : Public
+    Int32 mist_OffOnPause : Public
+    Int32 flood_OffOnPause : Public
+    Int32 autoStartAfterPause : Public
+    Int32 zUpOnPause : Public
+    Double zUpMoveDistanceOnPause : Public
+    Double approachFeed : Public
+    Int32 safetyRelayPresent : Public
+    EdingDotNET.Types.CNCIOID systemReadyOutPortID : Public
+    EdingDotNET.Types.CNCIOID safetyRelayResetOutPortID : Public
+    Int32 safetyRelayResetDelayMs : Public
+    Int32 safetyRelayPulseLengthMs : Public
+Struct EdingDotNET.Types.CNCAxisBools: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 x : Public
+    Int32 y : Public
+    Int32 z : Public
+    Int32 a : Public
+    Int32 b : Public
+    Int32 c : Public
+Struct EdingDotNET.Types.CNCPauseStatus: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 pauseManualActionRequired : Public
+    EdingDotNET.Types.CNCPositions pausePosition : Public
+    Int32 pausePositionValid : Public
+    Int32 pausePositionLine : Public
+    Int32 pauseSpindleIOValue : Public
+    Int32 pauseAux1IOValue : Public
+    Int32 pauseAux2IOValue : Public
+    Int32 pauseAux3IOValue : Public
+    Int32 pauseAux4IOValue : Public
+    Int32 pauseAux5IOValue : Public
+    Int32 pauseAux6IOValue : Public
+    Int32 pauseAux7IOValue : Public
+    Int32 pauseAux8IOValue : Public
+    Int32 pauseAux9IOValue : Public
+    Int32 pauseMistIOValue : Public
+    Int32 pauseFloodIOValue : Public
+    Int32 pauseArrayIndexX : Public
+    Int32 pauseArrayIndexY : Public
+    Int32 pauseDoArray : Public
+    EdingDotNET.Types.CNCAxisBools curPosInSync : Public
+    Int32 spindleInSync : Public
+    Int32 floodInSync : Public
+    Int32 mistInSync : Public
+    Int32 allAxesInSync : Public

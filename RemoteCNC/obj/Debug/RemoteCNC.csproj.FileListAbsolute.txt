@@ -1,0 +1,5 @@
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\bin\Debug\RemoteCNC.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\bin\Debug\RemoteCNC.pdb
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\obj\Debug\RemoteCNC.csproj.CoreCompileInputs.cache
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\obj\Debug\RemoteCNC.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\obj\Debug\RemoteCNC.pdb

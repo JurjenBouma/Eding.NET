@@ -1,0 +1,173 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="LANCNC.MasterPage"  %>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="StyleSheet.css" rel="stylesheet" />
+        <title>CNC LAN</title>
+        <style type="text/css">
+            #RenderPanel {
+                top: 0px;
+                left: 0px;
+                position: absolute;
+                height: 100%;
+                width: 70%;
+                z-index: 1;
+                background-color: #000000;
+            } 
+            #PanelPage {
+                bottom: 0px;
+                position: absolute;
+                height: 1000px;
+                width: 1900px;
+            }
+            #PanelCoords {
+                top: 0px;
+                left: 25%;
+                height: 100%;
+                width: 75%;
+                bottom: 0px;
+                right: 0px;
+                position: absolute;
+                background-color: #ABADC0;
+            }
+            #PanelHomeZero {
+                height: 100%;
+                width: 25%;
+                top: 0px;
+                left: 0px;
+                position: absolute;
+                background-color: #ABADC0;
+            }
+            #PanelWorkCoords {
+                top: 1%;
+                left: 2%;
+                position: absolute;
+                height: 48%;
+                width: 96%;
+            }
+            #PanelMachineCoords {
+                top: 51%;
+                left: 2%;
+                position: absolute;
+                height: 48%;
+                width: 96%;
+            }
+             #PanelMainMenu {
+                right: 0px;
+                left: 0px;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background-color: #ABADC0;
+            }
+            #PanelMid {
+                bottom: 0px;
+                right: 0px;
+                top: 70%;
+                left: 0px;
+                position: absolute;
+                height: 20%;
+                width: 100%;
+                background-color: #ABADC0;
+            }
+            #PanelZeroButtons {
+                top: 1%;
+                left: 1%;
+                position: absolute;
+                height: 49%;
+                width: 98%;
+                bottom: 345px;
+            }
+            #PanelHomeButtons {
+                top: 50%;
+                left: 1%;
+                position: absolute;
+                height: 49%;
+                width: 98%;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="MasterPage" runat="server">
+             <asp:ScriptManager ID="script1" runat="server"> </asp:ScriptManager>
+            <asp:Panel ID="PanelPage" runat="server" style="min-width:1024px; min-height:576px; top: 2%; left: 5%; position: absolute; height: 96%; width: 90%">
+                <div id="TopPanel" style="height: 70%; width: 100%; text-align: center; z-index: 0; left: 0px; top: 0px; position: absolute; bottom: 0px; right: 0px; background-color: #0000FF">
+                    <div id="RenderPanel">
+                        <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+                            <ContentTemplate>
+                                    <asp:Label ID="Labelrpm" runat="server" Font-Bold="True" Font-Names="Calibri" Text="RPM : 0       Simulation : 1" CssClass="LabelStatusInfo" AutoPostBack="true"></asp:Label>  
+                            </ContentTemplate>
+                            <Triggers> <asp:AsyncPostBackTrigger ControlID="timer1" EventName="Tick" /> </Triggers>
+                        </asp:UpdatePanel>   
+                    </div>
+                    <div id="PanelTopLeft" style="top: 0px; left: 70%; position: absolute; height: 100%; width: 30%; z-index: 2; background-color: #CCCCCC">
+                        <div id="PanelHomeZero">
+                            <div id="PanelZeroButtons">
+                                <asp:ImageButton ID="ImageButtonZeroX" runat="server" ImageUrl="~/Images/Buttons/Eding/zero_x.bmp" style="height: auto; width: 60%; background-color: #66FF66; top: 4%; left: 20%; position: absolute;" OnClick="ImageButtonZeroX_Click" />
+                                <asp:ImageButton ID="ImageButtonZeroY" runat="server" ImageUrl="~/Images/Buttons/Eding/zero_y.bmp" style="height: auto; width: 60%; background-color: #66FF66; top: 38%; left: 20%; position: absolute;" OnClick="ImageButtonZeroY_Click" />
+                                <asp:ImageButton ID="ImageButtonZeroZ" runat="server" ImageUrl="~/Images/Buttons/Eding/zero_z.bmp" style="height: auto; width: 60%; background-color: #66FF66; top: 72%; left: 20%; position: absolute;" OnClick="ImageButtonZeroZ_Click" />
+                            </div>
+                             <div id="PanelHomeButtons">
+                                  <asp:ImageButton ID="ImageButtonHomeX" runat="server" ImageUrl="~/Images/Buttons/Eding/home_x.bmp" style="height: auto; width: 60%; background-color: #66FF66; top: 6%; left: 20%; position: absolute;" OnClick="ImageButtonHomeX_Click" />
+                                <asp:ImageButton ID="ImageButtonHomeY" runat="server" ImageUrl="~/Images/Buttons/Eding/home_y.bmp" style="height: auto; width: 60%; background-color: #66FF66; top: 40%; left: 20%; position: absolute;" OnClick="ImageButtonHomeY_Click" />
+                                <asp:ImageButton ID="ImageButtonHomeZ" runat="server" ImageUrl="~/Images/Buttons/Eding/home_z.bmp" style="height: auto; width: 60%; background-color: #66FF66; top: 74%; left: 20%; position: absolute;" OnClick="ImageButtonHomeZ_Click" />
+                             </div>
+                        </div>
+                        <div id="PanelCoords">
+                            <div id="PanelWorkCoords">
+                                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                    <ContentTemplate>
+                                        <asp:Panel ID="PanelXwork" runat="server" style="top: 0%; left: 0px; position: absolute; height: 30%; width: 100%; background-color: #FF6666;">
+                                             <asp:Label ID="LabelXwork" runat="server" Font-Bold="True" Font-Names="Calibri" Text="X : 000.000" CssClass="CoordLabels"></asp:Label>
+                                        </asp:Panel>
+                                        <asp:Panel ID="PanelYwork" runat="server" style="top: 35%; left: 0px; position: absolute; height: 30%; width: 100%; background-color: #66FF66;">
+                                            <asp:Label ID="LabelYwork" runat="server" Font-Bold="True" Font-Names="Calibri" Text="Y : 000.000" CssClass="CoordLabels"></asp:Label>
+                                        </asp:Panel>
+                                        <asp:Panel ID="PanelZwork" runat="server" style="top: 70%; left: 0px; position: absolute; height: 30%; width: 100%; background-color: #3399FF;">
+                                            <asp:Label ID="LabelZwork" runat="server" Font-Bold="True" Font-Names="Calibri" Text="Z : 000.000" CssClass="CoordLabels"></asp:Label>
+                                        </asp:Panel>
+                                    </ContentTemplate>
+                                    <Triggers> <asp:AsyncPostBackTrigger ControlID="timer1" EventName="Tick" /> </Triggers>
+                                 </asp:UpdatePanel>
+                             </div>
+                             <div id="PanelMachineCoords">
+                                 <asp:UpdatePanel ID="UpdatePanel3" runat="server">
+                                    <ContentTemplate>
+                                        <asp:Panel ID="PanelXmach" runat="server" style="top: 0%; left: 0px; position: absolute; height: 30%; width: 100%; background-color: #333333;">
+                                             <asp:Label ID="LabelXmach" runat="server" Font-Bold="True" Font-Names="Calibri" Text="X : 000.000" CssClass="CoordLabels"></asp:Label>
+                                        </asp:Panel>
+                                        <asp:Panel ID="PanelYmach" runat="server" style="top: 35%; left: 0px; position: absolute; height: 30%; width: 100%; background-color: #333333;">
+                                            <asp:Label ID="LabelYmach" runat="server" Font-Bold="True" Font-Names="Calibri" Text="Y : 000.000" CssClass="CoordLabels"></asp:Label>
+                                        </asp:Panel>
+                                        <asp:Panel ID="PanelzMach" runat="server" style="top: 70%; left: 0px; position: absolute; height: 30%; width: 100%; background-color: #333333;">
+                                            <asp:Label ID="LabelZmach" runat="server" Font-Bold="True" Font-Names="Calibri" Text="Z : 000.000" CssClass="CoordLabels"></asp:Label>
+                                        </asp:Panel>
+                                    </ContentTemplate>
+                                    <Triggers> <asp:AsyncPostBackTrigger ControlID="timer1" EventName="Tick" /> </Triggers>
+                                 </asp:UpdatePanel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="PanelMid">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server"> 
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="PanelBottom" style="top: 90%; left: 0px; position: absolute; height: 10%; width: 100%; background-color: #ABADC0; bottom: 0px;">
+                    <div id="PanelMainMenu">
+                        <asp:ImageButton ID="ImageButtonMain" runat="server" ImageUrl="~/Images/Buttons/Eding/exit.bmp" style="height: 99%; width: auto; background-color: #66FF66" OnClick="ImageButtonMain_Click" />
+                        <asp:ImageButton ID="ImageButtonJog" runat="server" ImageUrl="~/Images/Buttons/Eding/jog.bmp" style=" height: 99%; width: auto; background-color: #66FF66" OnClick="ImageButtonJog_Click" />
+                        <asp:ImageButton ID="ImageButtonAuto" runat="server" ImageUrl="~/Images/Buttons/Eding/auto.bmp" style="height: 99%; width: auto; background-color: #66FF66" OnClick="ImageButtonAuto_Click" />
+                        <asp:ImageButton ID="ImageButtonTool" runat="server" ImageUrl="~/Images/Buttons/Eding/U2.bmp" style="height: 99%; width: auto; background-color: #66FF66" OnClick="ImageButtonTool_Click" />
+                        <asp:ImageButton ID="ImageButtonSettings" runat="server" ImageUrl="~/Images/Buttons/Eding/edit.bmp" style="height: 99%; width: auto; background-color: #66FF66" OnClick="ImageButtonSettings_Click" />
+                        <asp:ImageButton ID="ImageButtonAdmin" runat="server" ImageUrl="~/Images/Buttons/Eding/user.bmp" OnClick="ImageButtonAdmin_Click" style="height: 100%; width: auto; background-color: #66FF66" />
+                    </div>
+                </div>
+            </asp:Panel>
+             <asp:Timer ID="timer1" runat ="server" Interval="100" OnTick="Timer1_Tick"></asp:Timer>
+        </form>
+    </body>
+</html>
+

@@ -1,0 +1,11 @@
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\bin\Debug\Clientest.exe.config
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\bin\Debug\Clientest.exe
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\bin\Debug\Clientest.pdb
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\obj\Debug\Clientest.csproj.CoreCompileInputs.cache
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\obj\Debug\Clientest.exe
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\obj\Debug\Clientest.pdb
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\bin\Debug\CNCRemoteObj.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\bin\Debug\CNCRemoteObj.pdb
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\obj\Debug\Clientest.csprojResolveAssemblyReference.cache
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\bin\Debug\EdingDotNET.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\Clientest\bin\Debug\EdingDotNET.pdb

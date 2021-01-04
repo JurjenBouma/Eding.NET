@@ -1,0 +1,8 @@
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\bin\Release\CNCRemoteObj.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\bin\Release\CNCRemoteObj.pdb
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\obj\Release\CncRemoteObj.csprojResolveAssemblyReference.cache
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\obj\Release\CncRemoteObj.csproj.CoreCompileInputs.cache
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\obj\Release\CNCRemoteObj.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\obj\Release\CNCRemoteObj.pdb
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\bin\Release\CNCTypes.dll
+C:\Users\Jurjen\Documents\Visual Studio 2017\Projects\Eding.NET\RemoteCNC\bin\Release\CNCTypes.pdb

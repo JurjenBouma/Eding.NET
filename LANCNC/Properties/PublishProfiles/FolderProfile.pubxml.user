@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\CNCLAN\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin.aspx">
+      <publishTime>11/24/2017 23:24:43</publishTime>
+    </File>
+    <File Include="bin/CNCRemoteObj.dll">
+      <publishTime>11/27/2017 15:12:19</publishTime>
+    </File>
+    <File Include="bin/CNCRemoteObj.pdb">
+      <publishTime>11/27/2017 15:12:19</publishTime>
+    </File>
+    <File Include="bin/CNCTypes.dll">
+      <publishTime>11/26/2017 19:08:18</publishTime>
+    </File>
+    <File Include="bin/CNCTypes.pdb">
+      <publishTime>11/26/2017 19:08:18</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/auto.bmp">
+      <publishTime>11/22/2017 22:39:42</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/edit.bmp">
+      <publishTime>11/22/2017 22:41:58</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/exit.bmp">
+      <publishTime>11/24/2017 16:39:31</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/g28_home.bmp">
+      <publishTime>11/24/2017 13:48:55</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/home.bmp">
+      <publishTime>11/27/2017 14:12:23</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/home_x.bmp">
+      <publishTime>11/22/2017 18:25:39</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/home_y.bmp">
+      <publishTime>11/22/2017 18:25:39</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/home_z.bmp">
+      <publishTime>11/22/2017 18:25:39</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/jog.bmp">
+      <publishTime>11/22/2017 18:26:49</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/jog_down.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/jog_down3.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/jog_left.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/jog_right.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/jog_up.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/jog_up3.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/load_gcode.bmp">
+      <publishTime>11/26/2017 22:00:03</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/machon_box_green.bmp">
+      <publishTime>11/23/2017 23:09:52</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/machon_box_off.bmp">
+      <publishTime>11/23/2017 23:09:52</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/machon_box_red.bmp">
+      <publishTime>11/23/2017 23:09:52</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/machon_box_yellow.bmp">
+      <publishTime>11/23/2017 23:09:52</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/min_feed.bmp">
+      <publishTime>11/26/2017 22:00:03</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/pause.bmp">
+      <publishTime>11/22/2017 18:23:36</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/plus_feed.bmp">
+      <publishTime>11/26/2017 22:00:03</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/reset.bmp">
+      <publishTime>11/22/2017 18:23:36</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/run.bmp">
+      <publishTime>11/22/2017 18:23:36</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/speed_min.bmp">
+      <publishTime>11/25/2017 22:25:00</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/speed_plus.bmp">
+      <publishTime>11/25/2017 22:25:00</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/tool_green_led.bmp">
+      <publishTime>11/22/2017 18:24:58</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/tool_red_led.bmp">
+      <publishTime>11/22/2017 18:24:58</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/U2.bmp">
+      <publishTime>11/22/2017 22:40:57</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/user.bmp">
+      <publishTime>11/22/2017 22:20:50</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/zero_x.bmp">
+      <publishTime>11/22/2017 18:25:29</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/zero_y.bmp">
+      <publishTime>11/22/2017 18:25:29</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/Eding/zero_z.bmp">
+      <publishTime>11/22/2017 18:25:29</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/NewFileModernDetail49x60.png">
+      <publishTime>11/22/2017 18:17:27</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/OpenBluePrintModernDetail44x60.png">
+      <publishTime>11/22/2017 18:17:27</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/SaveScrollsFolderModernDetail57x60.png">
+      <publishTime>11/22/2017 18:17:27</publishTime>
+    </File>
+    <File Include="bin/Images/Buttons/trans.png">
+      <publishTime>11/25/2017 21:15:11</publishTime>
+    </File>
+    <File Include="bin/LANCNC.dll">
+      <publishTime>11/27/2017 15:40:42</publishTime>
+    </File>
+    <File Include="bin/LANCNC.pdb">
+      <publishTime>11/27/2017 15:40:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/15/2017 14:12:32</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 21:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/13/2017 16:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>04/13/2017 16:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/13/2017 16:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>04/13/2017 16:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/13/2017 16:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>04/13/2017 16:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>04/13/2017 16:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/13/2017 16:47:48</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="ControlPage.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/26/2017 20:07:09</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/auto.bmp">
+      <publishTime>11/22/2017 22:39:42</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/edit.bmp">
+      <publishTime>11/22/2017 22:41:58</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/exit.bmp">
+      <publishTime>11/24/2017 16:39:31</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/g28_home.bmp">
+      <publishTime>11/24/2017 13:48:55</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/home.bmp">
+      <publishTime>11/27/2017 14:12:23</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/home_x.bmp">
+      <publishTime>11/22/2017 18:25:39</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/home_y.bmp">
+      <publishTime>11/22/2017 18:25:39</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/home_z.bmp">
+      <publishTime>11/22/2017 18:25:39</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/jog.bmp">
+      <publishTime>11/22/2017 18:26:49</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/jog_down.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/jog_down3.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/jog_left.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/jog_right.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/jog_up.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/jog_up3.bmp">
+      <publishTime>11/22/2017 18:24:16</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/load_gcode.bmp">
+      <publishTime>11/26/2017 22:00:03</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/machon_box_green.bmp">
+      <publishTime>11/23/2017 23:09:52</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/machon_box_off.bmp">
+      <publishTime>11/23/2017 23:09:52</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/machon_box_red.bmp">
+      <publishTime>11/23/2017 23:09:52</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/machon_box_yellow.bmp">
+      <publishTime>11/23/2017 23:09:52</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/min_feed.bmp">
+      <publishTime>11/26/2017 22:00:03</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/pause.bmp">
+      <publishTime>11/22/2017 18:23:36</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/plus_feed.bmp">
+      <publishTime>11/26/2017 22:00:03</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/reset.bmp">
+      <publishTime>11/22/2017 18:23:36</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/run.bmp">
+      <publishTime>11/22/2017 18:23:36</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/speed_min.bmp">
+      <publishTime>11/25/2017 22:25:00</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/speed_plus.bmp">
+      <publishTime>11/25/2017 22:25:00</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/tool_green_led.bmp">
+      <publishTime>11/22/2017 18:24:58</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/tool_red_led.bmp">
+      <publishTime>11/22/2017 18:24:58</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/U2.bmp">
+      <publishTime>11/22/2017 22:40:57</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/user.bmp">
+      <publishTime>11/22/2017 22:20:50</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/zero_x.bmp">
+      <publishTime>11/22/2017 18:25:29</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/zero_y.bmp">
+      <publishTime>11/22/2017 18:25:29</publishTime>
+    </File>
+    <File Include="Images/Buttons/Eding/zero_z.bmp">
+      <publishTime>11/22/2017 18:25:29</publishTime>
+    </File>
+    <File Include="Images/Buttons/NewFileModernDetail49x60.png">
+      <publishTime>11/22/2017 18:17:27</publishTime>
+    </File>
+    <File Include="Images/Buttons/OpenBluePrintModernDetail44x60.png">
+      <publishTime>11/22/2017 18:17:27</publishTime>
+    </File>
+    <File Include="Images/Buttons/SaveScrollsFolderModernDetail57x60.png">
+      <publishTime>11/22/2017 18:17:27</publishTime>
+    </File>
+    <File Include="Images/Buttons/trans.png">
+      <publishTime>11/25/2017 21:15:11</publishTime>
+    </File>
+    <File Include="JavaEvents.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Job.aspx">
+      <publishTime>11/24/2017 16:06:19</publishTime>
+    </File>
+    <File Include="Jog.aspx">
+      <publishTime>11/27/2017 13:18:02</publishTime>
+    </File>
+    <File Include="MainControls.aspx">
+      <publishTime>11/27/2017 14:13:24</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>11/27/2017 15:26:02</publishTime>
+    </File>
+    <File Include="StyleSheet.css">
+      <publishTime>11/26/2017 21:51:11</publishTime>
+    </File>
+    <File Include="Watch.aspx">
+      <publishTime>11/24/2017 15:47:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/24/2017 22:54:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
